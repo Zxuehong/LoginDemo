@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.login.view.UserInfoView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:id="@+id/login_view">
+
+    <TextView
+        android:id="@+id/user_label"
+        style="@style/textLabelStyle"
+        android:layout_width="@dimen/text_width_size"
+        android:layout_height="@dimen/height"
+        android:text="@string/user_name_label" />
+
+    <EditText
+        android:id="@+id/user_name"
+        android:layout_width="@dimen/edit_width_size"
+        android:layout_height="@dimen/height"
+        android:layout_toEndOf="@+id/user_label"
+        android:hint="@string/user_name_hint" />
+
+    <TextView
+        android:id="@+id/pwd_label"
+        style="@style/textLabelStyle"
+        android:layout_width="@dimen/text_width_size"
+        android:layout_height="@dimen/height"
+        android:layout_below="@+id/user_label"
+        android:text="@string/password_label" />
+
+    <EditText
+        android:id="@+id/pwd"
+        android:layout_width="@dimen/edit_width_size"
+        android:layout_height="@dimen/height"
+        android:layout_below="@+id/user_name"
+        android:layout_toEndOf="@+id/pwd_label"
+        android:hint="@string/password_hint" />
+</com.example.login.view.UserInfoView>

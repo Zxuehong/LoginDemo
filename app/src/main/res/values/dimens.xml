@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="marginHorizontal">16dp</dimen>
+    <dimen name="text_width_size">60dp</dimen>
+    <dimen name="edit_width_size">250dp</dimen>
+    <dimen name="height">50dp</dimen>
+    <dimen name="label_text_size">14sp</dimen>
+</resources>
