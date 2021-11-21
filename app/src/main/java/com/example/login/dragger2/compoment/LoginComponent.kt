@@ -6,5 +6,5 @@ import dagger.Component
 
 @Component(modules = [LoginModule::class])
 interface LoginComponent {
-    fun inject(activity: MainActivity?)
+    fun inject(activity: MainActivity)
 }
