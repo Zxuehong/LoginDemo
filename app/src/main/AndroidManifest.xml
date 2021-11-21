@@ -8,8 +8,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Login"
-        android:appComponentFactory="Login">
+        android:theme="@style/Theme.Login">
         <activity
             android:name=".MainActivity"
             android:exported="true">
