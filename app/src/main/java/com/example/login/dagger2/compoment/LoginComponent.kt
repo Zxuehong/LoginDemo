@@ -1,7 +1,7 @@
-package com.example.login.dragger2.compoment
+package com.example.login.dagger2.compoment
 
 import com.example.login.MainActivity
-import com.example.login.dragger2.module.LoginModule
+import com.example.login.dagger2.module.LoginModule
 import dagger.Component
 
 @Component(modules = [LoginModule::class])

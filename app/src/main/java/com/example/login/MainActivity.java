@@ -5,8 +5,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.example.login.controller.LoginManager;
-import com.example.login.dragger2.compoment.DaggerLoginComponent;
-import com.example.login.dragger2.module.LoginModule;
+import com.example.login.dagger2.compoment.DaggerLoginComponent;
+import com.example.login.dagger2.module.LoginModule;
 
 import javax.inject.Inject;
 

@@ -345,7 +345,14 @@ interface LoginComponent {
 
 - **Dragger注解 - APT解析**
 
-  
+
+2.4 
+
+[]: 
+
+![](.\subcomponet-error.png)
+
+![](.\subcomponet-error2.png)
 
 #### 3、SystemUI的Dragger使用
 
